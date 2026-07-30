@@ -23,8 +23,10 @@ jobs:
     - name: Set up Flutter SDK
       run: |
         git clone https://github.com/flutter/flutter.git --branch 3.19.0 --depth 1 _flutter
-        echo "$GITHUB_WORKSPACE/_flutter/bin" >> $GITHUB_PATH
-        flutter doctor
+        echo "$PWD/_flutter/bin" >> $GITHUB_PATH
+
+    - name: Check Flutter Version
+      run: flutter --version
 
     - name: Get Dependencies
       run: flutter pub get
