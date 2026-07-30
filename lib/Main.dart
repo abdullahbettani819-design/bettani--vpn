@@ -46,7 +46,7 @@ class _BettaniVpnAppState extends State<BettaniVpnApp> {
         isDarkMode: isDarkMode, 
         onThemeToggle: toggleTheme,
         currentLanguage: currentLanguage,
-        onLanguageChanged: changeLanguage,
+        onLanguageChanged: changedLanguage,
       ),
     );
   }
