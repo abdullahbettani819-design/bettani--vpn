@@ -28,11 +28,8 @@ jobs:
     - name: Check Flutter Version
       run: flutter --version
 
-    - name: Clean Project
-      run: flutter clean
-
     - name: Get Dependencies
-      run: flutter pub get --verbose
+      run: flutter pub get
 
     - name: Build APK
       run: flutter build apk --release
