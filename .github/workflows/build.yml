@@ -23,6 +23,8 @@ jobs:
         flutter-version: '3.19.0'
         channel: 'stable'
         cache: true
+      env:
+        ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: 'true'
 
     - name: Install Dependencies
       run: flutter pub get
