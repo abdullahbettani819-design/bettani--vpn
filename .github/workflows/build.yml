@@ -1,7 +1,6 @@
 name: Build Flutter APK
 
 on:
-er:
   push:
     branches: [ main ]
 
