@@ -1,7 +1,6 @@
 name: bettani_vpn
-description: A new Flutter project for Bettani VPN.
+description: "A new Flutter project."
 publish_to: 'none'
-
 version: 1.0.0+1
 
 environment:
@@ -10,13 +9,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  google_mobile_ads: ^3.0.0
-  openvpn_flutter: ^5.0.3
+  cupertino_icons: ^1.0.2
+  openvpn_flutter: ^1.3.4
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^3.0.0
 
 flutter:
   uses-material-design: true
